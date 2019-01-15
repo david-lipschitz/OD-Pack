@@ -1,0 +1,53 @@
+package ODPackDXE10RT;
+
+{$R *.res}
+{$R 'ODCalend.dcr'}
+{$R 'ODDBCal.dcr'}
+{$R 'ODPopCal.dcr'}
+{$R 'ODTime.dcr'}
+{$R 'ODDBCbx.dcr'}
+{$R 'ODFldCbx.dcr'}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'My Power Station (Orbital Decisions) Components'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  vcl,
+  vcldb,
+  FireDAC,
+  FireDACCommonDriver,
+  FireDACCommon;
+
+contains
+  ODCalend in 'ODCalend.pas',
+  ODDBCal in 'ODDBCal.pas',
+  ODPopCal in 'ODPopCal.pas' {ODCalendarForm},
+  ODTime in 'ODTime.pas',
+  ODDBCbx in 'ODDBCbx.pas',
+  ODFldCbx in 'ODFldCbx.pas';
+
+end.
