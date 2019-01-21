@@ -10,6 +10,7 @@ package ODPackDXE10DT;
 {$R 'ODDatPrn.dcr'}
 {$R 'ODDBFind.dcr'}
 {$R 'ODPrCtrl.dcr'}
+{$R 'ODSched.dcr'}
 {$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
 {$ALIGN 8}
 {$ASSERTIONS ON}
@@ -51,6 +52,7 @@ contains
   ODDBComboReg in 'ODDBComboReg.pas',
   ODDatPrnReg in 'ODDatPrnReg.pas',
   ODDBFindReg in 'ODDBFindReg.pas',
-  ODPrCtrlReg in 'ODPrCtrlReg.pas';
+  ODPrCtrlReg in 'ODPrCtrlReg.pas',
+  ODSchedReg in 'ODSchedReg.pas';
 
 end.

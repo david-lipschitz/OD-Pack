@@ -22,4 +22,4 @@ To get started with this project, just `clone` this repository.
 
 ## Notes
 
-At the moment, Calendar, ComboBox, DataPrinter, DBFind, Price Controller are in the repo.
+At the moment, Calendar, ComboBox, DataPrinter, DBFind, Price Controller, Scheduler are in the repo.

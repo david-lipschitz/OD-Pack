@@ -10,6 +10,7 @@ package ODPackDXE10RT;
 {$R 'ODDatPrn.dcr'}
 {$R 'ODDBFind.dcr'}
 {$R 'ODPrCtrl.dcr'}
+{$R 'ODSched.dcr'}
 {$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
 {$ALIGN 8}
 {$ASSERTIONS ON}
@@ -54,6 +55,9 @@ contains
   ODFldCbx in 'ODFldCbx.pas',
   ODDatPrn in 'ODDatPrn.pas',
   ODDBFind in 'ODDBFind.pas' {ODFindForm},
-  ODPrCtrl in 'ODPrCtrl.pas';
+  ODPrCtrl in 'ODPrCtrl.pas',
+  ODSched in 'ODSched.pas',
+  JobDlg in 'JobDlg.pas' {ODJobForm},
+  ItemDlg in 'ItemDlg.pas' {ODJobItemForm};
 
 end.
