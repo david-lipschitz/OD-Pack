@@ -88,7 +88,7 @@ type
 
 const
   EvaluationVersion = False;
-  ODVersion = '2.1.3';
+  ODVersion = '5.0.0';
 
 
 constructor TODDataPrinter.Create(AOwner: TComponent);

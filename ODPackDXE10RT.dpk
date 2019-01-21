@@ -8,6 +8,7 @@ package ODPackDXE10RT;
 {$R 'ODDBCbx.dcr'}
 {$R 'ODFldCbx.dcr'}
 {$R 'ODDatPrn.dcr'}
+{$R 'ODDBFind.dcr'}
 {$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
 {$ALIGN 8}
 {$ASSERTIONS ON}
@@ -50,6 +51,7 @@ contains
   ODTime in 'ODTime.pas',
   ODDBCbx in 'ODDBCbx.pas',
   ODFldCbx in 'ODFldCbx.pas',
-  ODDatPrn in 'ODDatPrn.pas';
+  ODDatPrn in 'ODDatPrn.pas',
+  ODDBFind in 'ODDBFind.pas' {ODFindForm};
 
 end.

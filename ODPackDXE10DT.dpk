@@ -8,6 +8,7 @@ package ODPackDXE10DT;
 {$R 'ODDBCbx.dcr'}
 {$R 'ODFldCbx.dcr'}
 {$R 'ODDatPrn.dcr'}
+{$R 'ODDBFind.dcr'}
 {$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
 {$ALIGN 8}
 {$ASSERTIONS ON}
@@ -47,6 +48,7 @@ requires
 contains
   ODCalenReg in 'ODCalenReg.pas',
   ODDBComboReg in 'ODDBComboReg.pas',
-  ODDatPrnReg in 'ODDatPrnReg.pas';
+  ODDatPrnReg in 'ODDatPrnReg.pas',
+  ODDBFindReg in 'ODDBFindReg.pas';
 
 end.
