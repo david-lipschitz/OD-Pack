@@ -5,7 +5,7 @@ All Orbital Decisions components now in a single Package.
 This version without a VCL prefix for backward compatibility. Another version with the VCL Prefix
 
 Copyright is with My Power Station Technology, but anyone can use these components free of charge. We would like you to refer to us.
-Latest Update: 15th January 2019
+First Update: 15th January 2019; Latest Update: 21st January 2019
 
 
 ## Purpose
@@ -22,4 +22,4 @@ To get started with this project, just `clone` this repository.
 
 ## Notes
 
-At the moment, Calendar and ComboBox are in the repo.
+At the moment, Calendar, ComboBox, DataPrinter are in the repo.
