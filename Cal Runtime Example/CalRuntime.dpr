@@ -10,7 +10,7 @@
   Create a Calendar Component at run time
 }
 
-program TestApp;
+program CalRuntime;
 
 uses
   Vcl.Forms,
