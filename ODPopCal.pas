@@ -1,4 +1,6 @@
+unit ODPopCal;
 {
+  TODPopupCalendar Component
   My Power Station Technology (Pty) Ltd - was Orbital Decisions
   P.O.Box 1080, Milnerton 7435, South Africa
   components@mypowerstation.biz
@@ -7,8 +9,6 @@
 
   Use at your own risk!
 }
-
-unit ODPopCal;
 
 interface
 
