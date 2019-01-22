@@ -120,11 +120,14 @@
         <DCCReference Include="ODDBFind.dcr"/>
         <DCCReference Include="ODPrCtrl.dcr"/>
         <DCCReference Include="ODSched.dcr"/>
+        <DCCReference Include="ODDBExporter.dcr"/>
+        <DCCReference Include="ODDBImporter.dcr"/>
         <DCCReference Include="vcl.dcp"/>
         <DCCReference Include="vcldb.dcp"/>
         <DCCReference Include="FireDAC.dcp"/>
         <DCCReference Include="FireDACCommonDriver.dcp"/>
         <DCCReference Include="FireDACCommon.dcp"/>
+        <DCCReference Include="vclx.dcp"/>
         <DCCReference Include="ODCalend.pas"/>
         <DCCReference Include="ODDBCal.pas"/>
         <DCCReference Include="ODPopCal.pas">
@@ -145,6 +148,9 @@
         <DCCReference Include="ItemDlg.pas">
             <Form>ODJobItemForm</Form>
         </DCCReference>
+        <DCCReference Include="ODDBImporter.pas"/>
+        <DCCReference Include="ODDBExporter.pas"/>
+        <DCCReference Include="ODDBCommon.pas"/>
         <BuildConfiguration Include="Debug">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>

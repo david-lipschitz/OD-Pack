@@ -11,6 +11,8 @@ package ODPackDXE10RT;
 {$R 'ODDBFind.dcr'}
 {$R 'ODPrCtrl.dcr'}
 {$R 'ODSched.dcr'}
+{$R 'ODDBExporter.dcr'}
+{$R 'ODDBImporter.dcr'}
 {$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
 {$ALIGN 8}
 {$ASSERTIONS ON}
@@ -44,7 +46,8 @@ requires
   vcldb,
   FireDAC,
   FireDACCommonDriver,
-  FireDACCommon;
+  FireDACCommon,
+  vclx;
 
 contains
   ODCalend in 'ODCalend.pas',
@@ -58,6 +61,9 @@ contains
   ODPrCtrl in 'ODPrCtrl.pas',
   ODSched in 'ODSched.pas',
   JobDlg in 'JobDlg.pas' {ODJobForm},
-  ItemDlg in 'ItemDlg.pas' {ODJobItemForm};
+  ItemDlg in 'ItemDlg.pas' {ODJobItemForm},
+  ODDBImporter in 'ODDBImporter.pas',
+  ODDBExporter in 'ODDBExporter.pas',
+  ODDBCommon in 'ODDBCommon.pas';
 
 end.
